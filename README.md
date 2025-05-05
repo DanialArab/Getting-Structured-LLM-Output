@@ -34,7 +34,7 @@ but instead, we do need to have a layer between the LLM and the API. The naive s
 
 So the solution is to modify the LLM output to get it structured:
 
-![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/2.png)
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/2.png) 
 
 but HOW?
 
