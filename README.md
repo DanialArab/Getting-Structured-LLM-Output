@@ -27,7 +27,7 @@ To build an LLM Application we cannot just simply pass the raw text output to th
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/1.png)
 
-but instead, we do need to have a layer between the LLM and the API. The naive solution to this problem is to add a layer that parses the output, whcih is a very common first pass but it is:
+but instead, we do need to have a layer between the LLM and the API. The naive solution to this problem is to add a layer that parses the output, which is a very common first pass but it is:
 - time-consuming
 - error-prone
 - not easily extensible
@@ -37,6 +37,10 @@ So the solution is to modify the LLM output to get it structured:
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/2.png) 
 
 but HOW?
+
+The easiest way to get the structured output is to work with proprietary APIs. Every inference provider offers a different solution to how they provide structured outputs:
+
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/3.png)
 
 <a name="10"></a>
 References <a href="https://www.deeplearning.ai/short-courses/getting-structured-llm-output/">Getting Structured LLM Output - Deeplearning.ai</a>
