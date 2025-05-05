@@ -2,7 +2,7 @@
 
 
 1. [Introduction](#1)
-1. [](#2)
+2. [Structured Output Generation](#2)
     1. [T](#3)
        1. [](#4)
        2. [](#5)
@@ -22,6 +22,10 @@ Some key points to consider:
 - **Some models support structured responses and some others do not**.
 - There are some limitations to these approaches that we will go over, to deal with these limitations we use some open-source libraries like **instructor** that **re-prompts the model until a valid JSON structure is produced**. We will also go over the **constrained decoding** as the underlying concept behind another great open-source library called **outlines**. This library can strengthen the model output at the token level by intercepting the logits, the probabilities the model assigns to the next token outlines blocks any token that don't fit our defined schema or format. This guarantees a valid output without any do-overs 
 - We also learn how to generate beyond JSON, to generate valid phone numbers, email addresses, ASCII tic-tac-toe boards and basically, any format you can express in regex. 
+
+<a name="2"></a>
+## Structured Output Generation
+
 
 <a name="10"></a>
 References <a href="https://www.deeplearning.ai/short-courses/getting-structured-llm-output/">Getting Structured LLM Output - Deeplearning.ai</a>
