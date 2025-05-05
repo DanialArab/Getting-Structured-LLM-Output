@@ -11,6 +11,7 @@
       1. [Pros and cons](#8)
    4. [Journey to AI engineering from Prompt Hacking](#9)
 3. [Instructor open-source library - to generate structured output from model providers that don't support formal structured outputs](#10)
+   1. [Instructor](#11)
 
 
 <a name="1"></a>
@@ -99,6 +100,15 @@ It works with the model at the point of token generation to ensure that models c
 
 <a name="10"></a>
 ## Instructor open-source library - to generate structured output from model providers that don't support formal structured outputs
+
+<a name="11"></a>
+### Instructor 
+
+- It is an open-source re-prompting-based structured output library
+- If the model output does not match the format we requested, try again
+- 
+
+
 
 
 
