@@ -7,6 +7,7 @@
       1. [Pros and cons](#4)
    2. [Re-prompting](#5)
       1. [Pros and cons](#6)
+   3. [Structured Generation (aka Constrained Decoding)](#7)
 
 
 <a name="1"></a>
@@ -71,6 +72,16 @@ How re-prompting works?
 #### Pros and cons
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/7.png)
+
+<a name="7"></a>
+### Structured Generation (aka Constrained Decoding)
+
+It works with the model at the point of token generation to ensure that models can only sample exactly the structure we define. Here are some libraries to implement this:
+
+- Outlines (from .txt)
+- SGLang
+- Guidance
+- XGrammar
 
 
 <a name="10"></a>
