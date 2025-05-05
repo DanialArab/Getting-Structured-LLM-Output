@@ -18,5 +18,10 @@
 
 When building software using LLMs it is really hard to parse the unstructured text output. So as opposed to interacting with LLM through a chat interface where unstructured output may seem fine, when building software we do need to structure output in a format like JSON format to be easily parsable. If we want an LLM to read a product review and generates a couple of fields like the product name, whether the sentiment is +ive or -ive, then outputting those 2 fields in JSON lets downstream software reads and processes these fields reliably. Here, we see how to get structured outputs using several approaches. Specifically, we use regular expressions as an efficient way to get an LLM to reliably generate outputs in that specific format because regex can be used to enforce constraints on the next token to be generated one token at a time. 
 
+Some key points to consider:
+- **Some models support structured responses and some others do not**.
+- There are some limitations to these approaches that we will go over, to deal with these limitations we use some open-source libraries like **instructor** that **re-prompts the model until a valid JSON structure is produced**. We will also go over the **constrained decoding** as the underlying concept behind another great open-source library called **outlines**. This library can strengthen the model output at the token level by intercepting the logits, the probabilities the model assigns to the next token outlines blocks any token that don't fit our defined schema or format. This guarantees a valid output without any do-overs 
+- We also learn how to generate beyond JSON, to generate valid phone numbers, email addresses, ASCII tic-tac-toe boards and basically, any format you can express in regex. 
+
 <a name="10"></a>
 References <a href="https://www.deeplearning.ai/short-courses/getting-structured-llm-output/">Getting Structured LLM Output - Deeplearning.ai</a>
