@@ -8,8 +8,6 @@
    2. [Re-prompting](#3)
 
 
- 
-
 <a name="1"></a>
 ## Introduction
 
@@ -60,7 +58,10 @@ Pros and cons of working with proprietary API:
 <a name="5"></a>
 ### Re-prompting
 
-One solution to the above cons is to use re-prompting libraries.
+One solution to the above cons is to use re-prompting libraries. **Proprietary models only work with a specific API, but the re-prompting libraries are designed to work with any major LLM providers**. Example of these type of tools are:
+- Instructor
+- LangChain
+
 
 
 <a name="10"></a>
