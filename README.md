@@ -5,7 +5,7 @@
 2. [Structured Output Generation](#2)
    1. [Work with proprietary APIs to get structured outputs](#3)
       1. [Pros and cons](#4)
-   2. [Re-prompting](#3)
+   2. [Re-prompting](#5)
 
 
 <a name="1"></a>
@@ -61,6 +61,11 @@ Pros and cons of working with proprietary API:
 One solution to the above cons is to use re-prompting libraries. **Proprietary models only work with a specific API, but the re-prompting libraries are designed to work with any major LLM providers**. Example of these type of tools are:
 - Instructor
 - LangChain
+
+How re-prompting works?
+
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/6.png)
+
 
 
 
