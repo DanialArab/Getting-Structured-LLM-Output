@@ -107,9 +107,8 @@ It works with the model at the point of token generation to ensure that models c
 - It is an open-source re-prompting-based structured output library
 - If the model output does not match the format we requested, try again, as depicted below
 
-- ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/10.png)
+ ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/10.png)
 
-- 
 
 
 
