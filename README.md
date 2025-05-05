@@ -10,6 +10,7 @@
    3. [Structured Generation (aka Constrained Decoding)](#7)
       1. [Pros and cons](#8)
    4. [Journey to AI engineering from Prompt Hacking](#9)
+3. [Instructor open-source library - to generate structured output from model providers that don't support formal structured outputs](#10)
 
 
 <a name="1"></a>
@@ -96,7 +97,8 @@ It works with the model at the point of token generation to ensure that models c
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/9.png)
 
 
-
+<a name="10"></a>
+## Instructor open-source library - to generate structured output from model providers that don't support formal structured outputs
 
 
 
