@@ -42,5 +42,12 @@ The easiest way to get the structured output is to work with proprietary APIs. E
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/3.png)
 
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/4.png)
+
+Pros and cons of working with proprietary API:
+
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/5.png)
+
+
 <a name="10"></a>
 References <a href="https://www.deeplearning.ai/short-courses/getting-structured-llm-output/">Getting Structured LLM Output - Deeplearning.ai</a>
