@@ -32,7 +32,11 @@ but instead, we do need to have a layer between the LLM and the API. The naive s
 - error-prone
 - not easily extensible
 
-  
+So the solution is to modify the LLM output to get it structured:
+
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/2.png)
+
+but HOW?
 
 <a name="10"></a>
 References <a href="https://www.deeplearning.ai/short-courses/getting-structured-llm-output/">Getting Structured LLM Output - Deeplearning.ai</a>
