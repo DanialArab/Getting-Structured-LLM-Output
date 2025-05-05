@@ -3,6 +3,9 @@
 
 1. [Introduction](#1)
 2. [Structured Output Generation](#2)
+   1. [Work with proprietary APIs to get structured outputs](#3)
+      1. [Pros and cons](#4)
+   2. [Re-prompting](#3)
 
 
  
@@ -38,15 +41,26 @@ So the solution is to modify the LLM output to get it structured:
 
 but HOW?
 
+<a name="3"></a>
+### Work with proprietary APIs to get structured outputs
+
 The easiest way to get the structured output is to work with proprietary APIs. Every inference provider offers a different solution to how they provide structured outputs:
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/3.png)
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/4.png)
 
+<a name="4"></a>
+#### Pros and cons
+
 Pros and cons of working with proprietary API:
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/5.png)
+
+<a name="5"></a>
+### Re-prompting
+
+One solution to the above cons is to use re-prompting libraries.
 
 
 <a name="10"></a>
