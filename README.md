@@ -9,6 +9,7 @@
       1. [Pros and cons](#6)
    3. [Structured Generation (aka Constrained Decoding)](#7)
       1. [Pros and cons](#8)
+   4. [Journey to AI engineering from Prompt Hackin](#9)
 
 
 <a name="1"></a>
@@ -89,6 +90,8 @@ It works with the model at the point of token generation to ensure that models c
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/8.png)
 
+<a name="9"></a>
+### Journey to AI engineering from Prompt Hacking
 
 
 
