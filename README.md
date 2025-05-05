@@ -23,9 +23,16 @@ Some key points to consider:
 For scalable software development with LLMs, we do need structured outputs. These structured outputs allow us to go all the way from prompt hacking all the way to AI engineering, below figure:
 
 
-To build an LLM Application we cannot just simply pass the raw text output to the API
+To build an LLM Application we cannot just simply pass the raw text output to the API, as depicted below:
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/1.png)
+
+but instead, we do need to have a layer between the LLM and the API. The naive solution to this problem is to add a layer that parses the output, whcih is a very common first pass but it is:
+- time-consuming
+- error-prone
+- not easily extensible
+
+  
 
 <a name="10"></a>
 References <a href="https://www.deeplearning.ai/short-courses/getting-structured-llm-output/">Getting Structured LLM Output - Deeplearning.ai</a>
