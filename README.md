@@ -8,6 +8,7 @@
    2. [Re-prompting](#5)
       1. [Pros and cons](#6)
    3. [Structured Generation (aka Constrained Decoding)](#7)
+      1. [Pros and cons](#8)
 
 
 <a name="1"></a>
@@ -82,6 +83,14 @@ It works with the model at the point of token generation to ensure that models c
 - SGLang
 - Guidance
 - XGrammar
+
+<a name="8"></a>
+#### Pros and cons
+
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/8.png)
+
+
+
 
 
 <a name="10"></a>
