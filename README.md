@@ -6,6 +6,7 @@
    1. [Work with proprietary APIs to get structured outputs](#3)
       1. [Pros and cons](#4)
    2. [Re-prompting](#5)
+      1. [Pros and cons](#6)
 
 
 <a name="1"></a>
@@ -66,7 +67,10 @@ How re-prompting works?
 
 ![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/6.png)
 
+<a name="6"></a>
+#### Pros and cons
 
+![](https://github.com/DanialArab/images/blob/main/structured_llm_outputs/7.png)
 
 
 <a name="10"></a>
