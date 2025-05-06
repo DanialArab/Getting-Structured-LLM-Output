@@ -2,7 +2,7 @@
 
 
 1. [Introduction](#1)
-2. [Structured Output Generation](#2)
+2. [Structured Output Generation](#2) 
    1. [Work with proprietary APIs to get structured outputs](#3)
       1. [Pros and cons](#4)
    2. [Re-prompting](#5)
